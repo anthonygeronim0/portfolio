@@ -1,19 +1,3 @@
-// function click2() {
-//     document.getElementById("ficha").style.display = "none"
-//     document.getElementById("estudo").style.display = "block"
-//     document.getElementById("imgbutton1").src="imagens/mala black.png"
-//     document.getElementById("imgbutton2").src="imagens/diplomado.png"
-//     document.getElementById("imgbutton1").style.scale = "1.0"
-// }
-
-// function click1() {
-//     document.getElementById("estudo").style.display = "none"
-//     document.getElementById("ficha").style.display = "block"
-//     document.getElementById("imgbutton2").src="imagens/chapeu black.png"
-//     document.getElementById("imgbutton1").src="imagens/mala-de-viagem.png"
-//     document.getElementById("imgbutton1").style.scale = "1.2"
-// }
-
 const buttons = Array.from(document.getElementsByClassName("button"))
 
 buttons.forEach((button) => {
